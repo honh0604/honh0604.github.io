@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>honh0604 的博客</title>
+  
+  
+  <link href="https://honh0604.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://honh0604.github.io/"/>
+  <updated>2026-10-25T13:03:08.658Z</updated>
+  <id>https://honh0604.github.io/</id>
+  
+  <author>
+    <name>honh0604</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://honh0604.github.io/2026/10/25/hello-world/"/>
+    <id>https://honh0604.github.io/2026/10/25/hello-world/</id>
+    <published>2026-10-25T04:00:00.000Z</published>
+    <updated>2026-10-25T13:03:08.658Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是你的第一篇博客，用来确认站点能正常构建和发布。</p><h2 id="怎么写新文章"><a href="#怎么写新文章" class="headerlink" title="怎么写新文章"></a>怎么写新文章</h2><p>在项目目录里执行：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pnpm run new <span class="string">&quot;我的第二篇文章&quot;</span></span><br></pre></td></tr></table></figure><p>Hexo 会在 <code>source/_posts/</code> 生成一个 Markdown 文件，用任意编辑器（VS Code &#x2F; Typora &#x2F; Obsidian）打开，改 <code>title</code>、<code>date</code>、<code>tags</code>，正文照常写 Markdown 即可。</p><h2 id="本地预览"><a href="#本地预览" class="headerlink" title="本地预览"></a>本地预览</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pnpm install   <span class="comment"># 第一次才需要</span></span><br><span class="line">pnpm run dev   <span class="comment"># 打开 http://localhost:4000 预览</span></span><br></pre></td></tr></table></figure><h2 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h2><ul><li>如果仓库接了 GitHub Actions：<code>git push</code> 之后自动构建发布，不用管 <code>public/</code>。</li><li>如果是手动上传静态文件：<code>pnpm run build</code> 之后把 <code>public/</code> 里的内容覆盖到仓库根目录。</li></ul><p>写完后记得把这篇示例文章删掉（<code>source/_posts/hello-world.md</code>），或者直接改写成自己的内容。</p><blockquote><p>这个站点的标题、作者、网址都在根目录 <code>_config.yml</code> 里改。</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这是你的第一篇博客，用来确认站点能正常构建和发布。&lt;/p&gt;
+&lt;h2 id=&quot;怎么写新文章&quot;&gt;&lt;a href=&quot;#怎么写新文章&quot; class=&quot;headerlink&quot; title=&quot;怎么写新文章&quot;&gt;&lt;/a&gt;怎么写新文章&lt;/h2&gt;&lt;p&gt;在项目目录里执行：&lt;/p&gt;
+&lt;figure</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://honh0604.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+</feed>
