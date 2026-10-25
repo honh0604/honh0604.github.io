@@ -1,0 +1,9 @@
+# landscape 主题的本地覆盖配置
+# 只写需要改的项，其余沿用 node_modules/hexo-theme-landscape/_config.yml
+
+menu:
+  Home: /
+  Archives: /archives
+
+rss: /atom.xml
+fancybox: true
