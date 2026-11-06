@@ -3,6 +3,8 @@ title: Hello World
 date: 2026-10-25 12:00:00
 tags:
   - 随笔
+categories:
+  - 日常
 ---
 
 这是你的第一篇博客，用来确认站点能正常构建和发布。
